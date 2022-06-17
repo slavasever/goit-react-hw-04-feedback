@@ -1,0 +1,8 @@
+.item{
+    list-style: none;
+    font-size: 20px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
