@@ -7,9 +7,8 @@ const FeedbackOptions = ({ options, handleClick }) => (
       <li className={s.item} key={option}>
         <button
           type="button"
-          name={option}
           className={s[option]}
-          onClick={handleClick}
+          onClick={() => handleClick(option)}
         >
           {option}
         </button>

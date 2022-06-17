@@ -20,8 +20,8 @@ function App() {
     return Math.round((good / total) * 100);
   };
 
-  const handleClick = event => {
-    switch (event.currentTarget.name) {
+  const handleClick = option => {
+    switch (option) {
       case 'good':
         setGood(good + 1);
         break;
